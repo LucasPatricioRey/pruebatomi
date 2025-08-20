@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Presentación Lucas & Tomas</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <!-- NAVBAR -->
+  <header id="navbar">
+    <nav>
+      <h2 class="logo">✨ Nuestro Proyecto ✨</h2>
+      <ul>
+        <li><a href="#inicio">Inicio</a></li>
+        <li><a href="#sobre">Sobre Nosotros</a></li>
+        <li><a href="#proyectos">Proyectos</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- INICIO -->
+  <section id="inicio" class="section inicio hidden">
+    <div class="container">
+      <h1 class="glow">Hola, soy <span>Lucas Rey</span></h1>
+      <h2 class="glow">Y este es mi compañero <span>Tomas Nuñez</span></h2>
+      <img src="Imagenes/tomi y yo.jpg" alt="Lucas y Tomas" class="foto glow-img" />
+    </div>
+  </section>
+
+  <!-- SOBRE -->
+  <section id="sobre" class="section sobre hidden">
+    <h2 class="glow">Sobre Nosotros</h2>
+    <p>Somos dos estudiantes apasionados por la programación y la tecnología.</p>
+  </section>
+
+  <!-- PROYECTOS -->
+  <section id="proyectos" class="section proyectos hidden">
+    <h2 class="glow">Proyectos</h2>
+    <div class="cards">
+      <div class="card">
+        <div class="card-inner">
+          <div class="card-front"><h3>Proyecto 1</h3></div>
+          <div class="card-back"><p>Descripción detallada del proyecto 1.</p></div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-inner">
+          <div class="card-front"><h3>Proyecto 2</h3></div>
+          <div class="card-back"><p>Descripción detallada del proyecto 2.</p></div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-inner">
+          <div class="card-front"><h3>Proyecto 3</h3></div>
+          <div class="card-back"><p>Descripción detallada del proyecto 3.</p></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACTO -->
+  <section id="contacto" class="section contacto hidden">
+    <h2 class="glow">Contacto</h2>
+    <form>
+      <input type="text" placeholder="Tu nombre" required />
+      <input type="email" placeholder="Tu correo" required />
+      <textarea placeholder="Escribe tu mensaje..." required></textarea>
+      <button type="submit" class="btn-glow">Enviar</button>
+    </form>
+  </section>
+
+  <footer class="hidden">
+    <p>© 2025 Lucas Rey & Tomas Nuñez ✨</p>
+  </footer>
+
+  <!-- Botón volver arriba -->
+  <button id="btnTop">⬆</button>
+</body>
+</html>
